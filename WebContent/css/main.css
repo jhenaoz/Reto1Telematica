@@ -1,0 +1,53 @@
+body{
+	background-color: #FFFF;
+}
+.imagenes li{
+	position: relative;
+	display: inline-block;
+}
+img{
+	width: 45%;
+	padding: 10px 15px;
+	height: 200px;
+	width: auto;
+}
+li span{
+	position: absolute; !important
+	left: 30px;
+	bottom: 0px;
+	top: auto; !important
+}
+input[type="file"]{
+	display: inline;
+}
+#submit{
+	display: block;
+}
+form {
+	width: 400px;
+	background-color: darkgrey;
+}
+textarea {
+	width: 80%;
+	height: 60px;
+}
+p{
+	font-size: larger;
+	font-weight: 700;
+}
+.col-md-7{
+	padding-left: 5%;
+}
+h2{
+	font-size: 50px;
+}
+.lead{
+	color: #5a5a5a;
+}
+#user{
+	display: none;
+	margin-top: 20px;
+}
+#loginFbInput{
+	margin-top: 20px;
+}
